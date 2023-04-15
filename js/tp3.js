@@ -13,7 +13,7 @@ if (pw !== passWord) {
 
 let nombre = prompt('Entrez un nombre');
 let pair = nombre % 2 == 0;
-let impair = x % 2 == 1;
+let impair = nombre % 2 == 1;
 
 if (pair) {
     for (let i = 0; i <= nombre; i = i + 2) {
@@ -32,8 +32,8 @@ if (impair) {
 //Exercice  2b  suite de nombre impaire jusqu'au nombre 
 
 let nombre = prompt('Entrez un nombre');
-let pair = x % 2 == 0;
-let impair = x % 2 == 1;
+let pair = nombre % 2 == 0;
+let impair = nombre % 2 == 1;
 
 if (pair) {
     console.log(0);
@@ -125,7 +125,7 @@ for (let index = 0; index < 10; index++) {
 // exercice 9   Table de multiplication du nombre
 
 let nombre = prompt("entrez un nombre");
-let nombreP = x
+let nombreP = nombre
 
 for (let index = 0; index < 11; ++index) {
     nombre = nombreP * index
@@ -179,4 +179,3 @@ while (n !== 0 ) {
     };
 };
 console.log(`le plus grand est ${n}`);
-
