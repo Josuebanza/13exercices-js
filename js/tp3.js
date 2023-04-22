@@ -15,40 +15,20 @@ let nombre = prompt('Entrez un nombre');
 let pair = nombre % 2 == 0;
 let impair = nombre % 2 == 1;
 
-if (pair) {
     for (let i = 0; i <= nombre; i = i + 2) {
         console.log(i);
     }
-    console.log();
-}
-if (impair) {
-    for (let i = 0; i <= nombre; i = i + 2) {
-        console.log(i);
-
-    }
-    console.log(x);
-}
+    console.log(nombre);
 
 //Exercice  2b  suite de nombre impaire jusqu'au nombre 
 
 let nombre2 = prompt('Entrez un nombre');
 
-
-if (pair) {
     console.log(0);
     for (let i = 1; i < nombre2; i = i + 2) {
         console.log(i);
     }
     console.log(nombre2);
-}
-if (impair) {
-    console.log(0);
-    for (let i = 1; i < nombre2; i = i + 2) {
-        console.log(i);
-
-    }
-    console.log(nombre2);
-}
 
 //Exercice 3  echange des valeurs   
 let n1 = prompt('entrez la première valeur');
@@ -56,7 +36,7 @@ let n2 = prompt('entrez la seconde valeur');
 let n3 = n1;
 n1 = n2
 n2 = n3
-console.log(`la valeur de a vaut :  + ${a} + la valeur vaut : ${b}`);
+console.log(`la valeur de a vaut :  + ${n1} + la valeur vaut : ${n2}`);
 
 //Exercice 4 année bissextile 
 
